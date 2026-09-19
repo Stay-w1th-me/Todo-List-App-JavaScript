@@ -83,7 +83,14 @@ addTaskButton.addEventListener("click", function (){
     saveTasks();
 
     taskInput.value = "";
-}); 
+    });
+taskInput.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+        addTaskButton.click();
+    }
+});
+
+ 
 
 
 
