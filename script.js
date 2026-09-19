@@ -14,6 +14,10 @@ addTaskButton.addEventListener("click", function (){
     const taskSpan = document.createElement("span");
     taskSpan.textContent = taskText;
 
+    taskSpan.addEventListener('click',function (){
+        listItem.classList.toggle("completed")
+    })
+
     const deleteButton = document.createElement("button");
     deleteButton.textContent = "Удалить"
 
