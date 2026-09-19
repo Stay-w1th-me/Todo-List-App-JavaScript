@@ -74,3 +74,36 @@ main > div {
     text-decoration: line-through;
     opacity: 0.5;
 }
+
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 12px;
+    margin-bottom: 10px;
+    padding: 12px 14px;
+
+    border-radius: 8px;
+}
+
+#taskList li span {
+    flex: 1;
+    cursor: pointer;
+}
+
+#taskList li button {
+    padding: 7px 12px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #dc2626;
+    color: white;
+
+    cursor: pointer;
+}
+
+#taskList li button:haver {
+    background: #b91c1c;
+}
