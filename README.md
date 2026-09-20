@@ -1,4 +1,6 @@
 # Todo List App
+[![Maintainability](https://qlty.sh/gh/Stay-w1th-me/projects/Todo-List-App-JavaScript/maintainability.svg)](https://qlty.sh/gh/Stay-w1th-me/projects/Todo-List-App-JavaScript)
+
 простое веб-приложение для управления списком задач. Пользователь может добавлять туда новые задачи, отмечать их выполненными и удалять.
 Список задач сохраняется в LocalStorage браузера и не исчезает после перезагрузки страницы.
 
